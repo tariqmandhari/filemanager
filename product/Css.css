@@ -1,0 +1,311 @@
+/*Fonts*/
+ h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+font-weight: 700;
+}
+  h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+font-weight: 500;
+}
+  h3{
+font-family: 'Montserrat', sans-serif;
+font-size: 40px;
+font-weight: 700;
+color: white;
+}
+  h4{
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+font-weight: 700;
+color: white;
+}
+
+
+/*navigation bar, the grey part*/
+.navbar{
+  height: 150px;
+  Width: 965px;
+  background-color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+}
+/*Puts a box around the links*/
+.navlink{
+  height: 50px;
+  Width: 100px;
+  background-color: #464646;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+/*Buttons*/
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  /*here*/
+}
+
+
+/*button designing for whole scroll to top butto*/
+.btn-1 {
+  width: 300px;
+  height: 100px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #404040;
+  transition: ease-out 0.2s;
+  font-size: 2rem;
+  outline: none;
+}
+
+.btn-1:hover {
+  box-shadow: inset 300px 0 0 0 #333333;
+}
+
+.btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background:#4f4f4f;
+  border:none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color:#ffffff;
+  outline:none;
+  cursor:pointer;
+}
+.btnScrollToTop:active {
+  background: #404040;
+}
+
+/*import*/
+label{
+  color: white;
+  height: 60px;
+  width: 250px;
+  background-color: #f5af09
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Monsterrat",sans-serif;
+}
+/*end of button scroll*/
+
+
+/*navigation link visuals*/
+li, a, button {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;/*Topbar links*/
+  padding: 30px 10%; /*Margin between the edge to make look smooth*/
+}
+.logo {cursor: pointer;}
+.nav__links {list-style: none;}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+
+/*Form visual*/
+.ras {
+  background-color: tomato;
+  color: white;
+  border: 0.1px solid black;
+  margin: 1px;
+  padding: 20px;
+  width: 700px;
+  font-family: 'Montserrat', sans-serif
+}
+
+/*slogan1 style*/
+.slogan1{
+  height: 200px;
+  width: 1200px;
+  background-color: brown;
+  border-radius: 50px;
+  text-align: center;
+  margin:auto;
+}
+
+
+/*link colors*/
+a:link {
+  color: #8CFF00;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8CFF00;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+a:active {
+  color: darkgreen;
+  background-color: transparent;
+}
+
+.filesbox{
+  height: inherit;
+  width: inherit;
+  background-color: gray;
+  border-radius: 50px;
+  color: #8CFF00;
+  margin: auto;
+}
+
+/*upload button color-shape*/
+.upstylechem {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.upstylebio {
+  background-color: #C696F1;
+  border: none;
+  color: white;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.upstylearabic {
+  background-color: #E4D26E;
+  border: none;
+  color: white;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.upstylecomp {
+  background-color: #34FFCF;
+  border: none;
+  color: white;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.upstylemath {
+  background-color: #F2C19A;
+  border: none;
+  color: white;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.upstylegeo {
+  background-color: #0292BE;
+  border: none;
+  color: white;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+/*upload boxes background style*/
+.uploadboxchem{
+  height: 61px;
+  width: inherit;
+  background-color: green;
+  border-radius: 25px;
+  align-items: center;
+  margin:auto;
+  text-align: center;
+}
+.uploadboxbio{
+  height: 61px;
+  width: inherit;
+  background-color: #AF73E5;
+  border-radius: 25px;
+  align-items: center;
+  margin:auto;
+  text-align: center;
+}
+.uploadboxarabic{
+  height: 61px;
+  width: inherit;
+  background-color: #FFDD27;
+  border-radius: 25px;
+  align-items: center;
+  margin:auto;
+  text-align: center;
+}
+.uploadboxcomp{
+  height: 61px;
+  width: inherit;
+  background-color: #45D3B3;
+  border-radius: 25px;
+  align-items: center;
+  margin:auto;
+  text-align: center;
+}
+.uploadboxmath{
+  height: 61px;
+  width: inherit;
+  background-color: #FF8D34;
+  border-radius: 25px;
+  align-items: center;
+  margin:auto;
+  text-align: center;
+}
+.uploadboxgeo{
+  height: 61px;
+  width: inherit;
+  background-color: #95E6FF;
+  border-radius: 25px;
+  align-items: center;
+  margin:auto;
+  text-align: center;
+}
+<div class="filesbox"><a href="/uploadedfiles/chem/chem.docx" download="Chem1">Download Chem1</a></div></br>

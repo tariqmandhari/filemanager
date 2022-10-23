@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css.css">
+    <link href="https://fonts.googleapis.com/cssfamily=Monsterrat" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<!--Navigation bar design-->
+<body>
+  <title>File Manager</title><!--Title that shows on the tab name-->
+  <body style = "background: url(pexels-olenka-sergienko-3646172.png); background-size:100%;">
+  <header class="navbar">
+    <a href="FilemanagerHome.html"><img class="logo" src="logo.png"alt="logo"></a><!--clicking logo returns home-->
+    <nav>
+      <ul class="nav__links">
+        <li class="navlink"align=center><a href="FilemanagerHome.html">Home</a></li>
+        <li class="navlink"align=center><a href="files.html">Files</a></li>
+        <li class="navlink"align=center><a href="Contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!--Link for jotform form-->
+<script type="text/javascript" src="https://form.jotform.com/jsform/222924521360449"></script>
+
+<!--scroll to top---->
+
+    <button id="btnScrollToTop" class="btnScrollToTop"><!--class takes design from css---->
+    <i class="material-icons">arrow_upward</i>
+    </button>
+<script>
+      const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+      btnScrollToTop.addEventListener("click", function () {
+        window.scrollTo({
+          top: 5,
+          left: 0,
+        });
+      });
+</script>
+
+
+</body>
+</html>
